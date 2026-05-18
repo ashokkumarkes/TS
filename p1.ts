@@ -19,4 +19,4 @@ function calculate(strikAmt: number, tgtAmnt: number, lot: number, qty: number) 
     }
     console.log(obj);
 }
-calculate(600, 850, 1, 20);
+calculate(11.65, 24, 1, 65);
