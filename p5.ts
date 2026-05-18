@@ -1,11 +1,11 @@
 enum constVal {
 Year = 1,
-Profit = 25,
+Profit = 30,
 weeklyProfit = 2
 }
 
 
-function firstYearCal(year : constVal, contProfit: constVal, constWeekly:constVal):void{
+function firstYearCal(year :constVal, contProfit:constVal, constWeekly:constVal):void{
 
 	let buying 		= 700;
 	let profit      =  buying * (contProfit/100); 
