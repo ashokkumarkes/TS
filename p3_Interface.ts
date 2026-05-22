@@ -11,7 +11,4 @@ function getUserDetails(user: UserDetails): void {
 }
 
 getUserDetails({name: "John", role: "Admin"});
-
-interface defines contract / shape  for object. 
-specically what paremeters & method must exists. 
  
