@@ -25,9 +25,10 @@ class MemoryLeakDemo {
     }
 
     addData() {
-        if(this.data.length>1){
+        if(this.data.length>5){
             this.data = [];
         }
+       
         this.data.push("more data");
         console.log(`Data length: ${this.data.length}`);
     }

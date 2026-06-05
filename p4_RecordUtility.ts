@@ -13,6 +13,4 @@ const cats: Record<CatName, CatInfo> = {
   mordred: { age: 16, breed: "British Shorthair" },
 };
 
-// nifty 19 may 23850 -10.70
-
 console.log(cats.miffy.age);
